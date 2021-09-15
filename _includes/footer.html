@@ -1,0 +1,41 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="flexWrap alignMiddle">
+
+      <div class="col-1">
+        <a href="https://opendata.cityofnewyork.us/"><img class="logo logoLong" src="{{ site.baseurl }}/assets/img/logo-nyc-open-data.png" alt="NYC Open Data logo" /></a>
+      </div>
+
+      <div class="col-1">
+        <a href="http://www1.nyc.gov/site/analytics/index.page"><img class="logo" src="{{ site.baseurl }}/assets/img/logo-nyc-moda.png" alt="NYC Mayor's Office of Data Analytics logo" /></a>
+      </div>
+
+      <div class="col-1">
+        <a href="http://www1.nyc.gov/site/doitt/index.page"><img class="logo" src="{{ site.baseurl }}/assets/img/logo-nyc-doitt.png" alt="NYC Department of Information Technology and Telecommunications logo" /></a>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="{{ site.baseurl }}/assets/js/plugins/jquery.sticky.js"></script>
+<script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+
+{% if page.layout == 'report-3' %}
+<script src="{{ site.baseurl }}/assets/js/timeline.js"></script>
+{% else %}{% endif %}
+
+{% if page.layout == 'report-6' %}
+<script src="{{ site.baseurl }}/assets/js/tabs.js"></script>
+<script>
+$(document).ready(function(){
+  $(".tabSticker").sticky({topSpacing:103, zIndex: 10});
+});
+</script>
+{% else %}{% endif %}
+
+{% include ga.html %}

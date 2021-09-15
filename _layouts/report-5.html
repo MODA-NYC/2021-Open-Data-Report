@@ -1,0 +1,33 @@
+---
+layout: report
+---
+
+<br>
+
+<div class="wrapper">
+
+  {% capture compliance %}{% include /content/by-the-numbers.md %}{% endcapture %}
+  {{ compliance | markdownify }}
+  
+</div>
+
+<div class="wrapper">
+  
+<figure class="userFeature">
+  <img src="{{ site.baseurl }}/assets/img/api-dl-2021.png" alt="A clean soil receiving site at the NY Hall of Science." />
+</figure>
+
+<figure class="userFeature">
+  <img src="{{ site.baseurl }}/assets/img/api-dl-2020.png" alt="Fiscal Year 2020." />
+</figure>
+  
+  {% capture compliance %}{% include /content/popular-datasets.md %}{% endcapture %}
+  {{ compliance | markdownify }}
+  
+</div>
+
+
+
+  <button><a href="{{ site.baseurl }}/report/compliance-plan/">Next:<br />6. Compliance Plan</a></button>
+
+</div>
