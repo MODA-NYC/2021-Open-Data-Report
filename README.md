@@ -12,7 +12,7 @@ The content of the report is mostly broken into smaller Markdown files in the [`
 
 ### Styles
 
-The site uses Jekyll's [Minima](https://github.com/jekyll/minima) theme as a foundation, and addtional styles are maintained in the [`main.scss`](https://github.com/MODA-NYC/assets/2021-Open-Data-Report/blob/gh-pages/assets/main.scss) file.
+The site uses Jekyll's [Minima](https://github.com/jekyll/minima) theme as a foundation, and addtional styles are maintained in the [`main.scss`](https://github.com/MODA-NYC/2021-Open-Data-Report/blob/main/assets/main.scsss) file.
 
 ## Contributing
 
