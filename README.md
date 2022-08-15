@@ -8,7 +8,7 @@ The site is build on [Jekyll](https://jekyllrb.com/) and runs on [Github Pages](
 
 ### Report Content
 
-The content of the report is mostly broken into smaller Markdown files in the [`_includes`](https://github.com/MODA-NYC/2021-Open-Data-Report/tree/gh-pages/_includes/content) directory. This content is pulled together through each section's respective `layout` file.
+The content of the report is mostly broken into smaller Markdown files in the [`_includes`](https://github.com/MODA-NYC/2021-Open-Data-Report/tree/main/_includes) directory. This content is pulled together through each section's respective `layout` file.
 
 ### Styles
 
